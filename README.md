@@ -1,2 +1,2 @@
 # SEIL-simulation
-Simulations for SEIL
+OpenFOAM HVAC Simulations for SEIL, IIT Bombay
