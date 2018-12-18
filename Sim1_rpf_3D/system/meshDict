@@ -1,0 +1,28 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  plus                                  |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      meshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//meshDict for cartesianMesh
+//Mandatory settings
+
+surfaceFile "constant/triSurface/mesh.stl";     //surface file that points to the surfaceFile by relative path
+maxCellSize 0.5;                                // maximum allowed cell size in metres [m]
+
+//Refinement Settings
+boundaryCellSize 0.1;                          //size of the cell at the boundary
+boundaryCellSizeRefinementThickness 0.5;        //distance from the boundary at which boundary cell size will be used
+minCellSize 0.1;                               //minimum cell size allowed in the automatic refinement procedure
+
+//localRefinement
