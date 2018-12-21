@@ -21,22 +21,22 @@ FoamFile
 Walls
 {
     type wall;
-    nFaces 53004;
-    startFace 1355304;
+    nFaces 17924;
+    startFace 648328;
 }
 
 inlet
 {
     type wall;
-    nFaces 0;
-    startFace 1408308;
+    nFaces 432;
+    startFace 666252;
 }
 
 outlet
 {
     type wall;
-    nFaces 16;
-    startFace 1408308;
+    nFaces 680;
+    startFace 666684;
 }
 
 )
