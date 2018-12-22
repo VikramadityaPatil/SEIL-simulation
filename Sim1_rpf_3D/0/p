@@ -20,19 +20,19 @@ internalField   uniform 0;
 
 boundaryField
 {
-    floor
+    inlet
     {
         type            calculated;
         value           $internalField;
     }
 
-    ceiling
+    outlet
     {
         type            calculated;
         value           $internalField;
     }
 
-    fixedWalls
+    Walls
     {
         type            calculated;
         value           $internalField;
