@@ -1,0 +1,5 @@
+#ignore all the time directories
+#all directories with names in only numbers
+[0-9]*/
+#not the 0/ directory
+!0/

@@ -17,15 +17,15 @@ FoamFile
 
 application     buoyantBoussinesqPimpleFoam;
 
-startFrom       latestTime;
+startFrom       startTime;
 
 startTime       0;
 
 stopAt          endTime;
 
-endTime         3000;
+endTime         300;
 
-deltaT          2;
+deltaT          1;
 
 writeControl    timeStep;
 
